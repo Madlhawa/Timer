@@ -7,7 +7,7 @@ def clean(data):
 
 
 def write(data):
-    file=open("data.txt",mode='a+')
+    file=open("LapTimeData/data.txt", mode='a+')
     for i in range(len(data)):
         file.write(data[i])
     file.write('\n')
